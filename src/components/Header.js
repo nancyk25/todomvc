@@ -12,7 +12,6 @@ const Header = ({ addState }) => (
       placeholder={"Add a new state"}
       onSave={(text) => {
         if (text.length !== 0) {
-          console.log(text)
           addState(text)
         }
       }}

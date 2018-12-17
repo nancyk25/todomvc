@@ -35,7 +35,6 @@ export default class Item extends Component {
 
     let element
     if (this.state.editing) {
-      console.log('edit mode', this.props.e)
       element = (
         <ItemInput
           text={state.text}
